@@ -1,0 +1,78 @@
+/* Estilo geral da página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Menu */
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Hover nos links */
+nav a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #555;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    margin-top: 20px;
+}
+
+/* Inputs */
+input, select, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Hover no botão */
+button:hover {
+    background-color: #2ecc71;
+}
+
+/* Imagens */
+img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
