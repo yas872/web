@@ -1,0 +1,13 @@
+11-
+#pond {
+  display: flex;
+flex-direction: column; *O flex-direction muda o eixo principal, o column vai virar a linha para uma cloluna.*
+justify-content: flex-end *O justify-content seleciona a row, o flex end direciona a coluna para baixo da tela.*
+}
+
+12-
+#pond {
+  display: flex;
+flex-direction: column-reverse; *O column reverse vai inverter a coluna."
+justify-content:space-between *O space between é para determinar o mesmo espaço entre os objetos."
+}
