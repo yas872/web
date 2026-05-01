@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Questao 3</title>
+    <style>
+        
+        .band{
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            display: flex; 
+            margin-bottom: 20px;
+        }
+
+        
+        .franca div {
+            flex: 1; 
+        }
+        .azul { background: blue; }
+        .branco { background: white; }
+        .vermelho { background: red; }
+
+        
+        .alemanha {
+            flex-direction: column; 
+        }
+        .alemanha div {
+            flex: 1; 
+        }
+        .preto { background: black; }
+        .amarelo { background: gold; }
+
+        
+        .japao {
+            justify-content: center; 
+            align-items: center;     
+        }
+        .yngyang {
+            width: 120px;
+            height: 120px;
+            background: red;
+            border-radius: 50%; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="band franca">
+        <div style="background: blue;"></div>
+        <div style="background: white;"></div>
+        <div style="background: red;"></div>
+    </div>
+
+    <div class="band alemanha">
+        <div style="background: black;"></div>
+        <div style="background: red;"></div>
+        <div style="background: yellow;"></div>
+    </div>
+
+    <div class="band japao">
+        <div class="yngyang"></div>
+    </div>
+</body>
+</html>
